@@ -152,7 +152,7 @@ background-color: rgb(212, 209, 209);
 position: relative;
 }
 
-
+/* adding shape Divider on sponsor section */
 
 
 .custom-shape-divider-top-1644554029 {
@@ -175,7 +175,7 @@ position: relative;
   fill: #eee;
 }
 
-
+/* ADDing Shape Divider on Hero Section */
 
 .hero{
   position: relative;
@@ -201,4 +201,7 @@ position: relative;
 
 .custom-shape-divider-bottom-1644554325 .shape-fill {
   fill: #eee;
+}
+.sponsortext{
+  color:rgb(9, 127, 173)
 }
