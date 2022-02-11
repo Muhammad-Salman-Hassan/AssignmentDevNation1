@@ -152,6 +152,7 @@ background-color: rgb(212, 209, 209);
 position: relative;
 }
 
+
 /* adding shape Divider on sponsor section */
 
 
@@ -204,4 +205,24 @@ position: relative;
 }
 .sponsortext{
   color:rgb(9, 127, 173)
+}
+
+footer{
+  position: relative;
+}
+.uppicondiv{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  border-radius: 50%;
+}
+.uppicondiv:hover{
+  
+  background-color: rgba(255, 255, 255, 0.63);
+}
+.uppicondiv a i{
+  color: #000;
 }
