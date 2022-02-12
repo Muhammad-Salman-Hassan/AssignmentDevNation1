@@ -74,6 +74,10 @@ body {
     background-position: center center;
     background-size: 100% 100%;
 }
+#navbarMain>button:focus {
+  outline: none;
+
+}
 a{
     text-decoration: none;
     color: black;
@@ -133,8 +137,9 @@ h1{
 
 @media(max-width: 487px) {
   .card.wrapper{
-    max-width: 400px;
-    max-height:600px;
+    width: 100% !important;
+    
+    overflow: hidden;
   }
   .card-body p{
     font-size: 15px;
